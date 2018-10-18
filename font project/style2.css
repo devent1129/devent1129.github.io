@@ -1,0 +1,60 @@
+.shape{
+	position: absolute;
+	width: 650px;
+	height: 200px;
+	border: 400px solid rgb(0,0,0);
+	border-radius: 0 0 700px 0;
+}
+/*.clip1{
+	position: absolute;
+	top: 200px;
+	left: 400px;
+	width: 150px;
+	height: 308px;
+	overflow: hidden;
+}
+*/
+.shape2{
+	position: absolute;
+	top: 890px;
+	left: -267px;
+	width: 1200px;
+	height: 650px;
+	border: 400px solid rgb(0,0,0);
+	border-radius: 0 0 700px 0;
+	transform: rotate(270deg);
+}
+.clip1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1500px;
+	height: 2190px;
+	background-color: transparent;
+	overflow: hidden;
+	
+}
+.shape3{
+	position: absolute;
+	left: 1500px;
+	width: 650px;
+	height: 200px;
+	border: 400px solid rgb(0,0,0);
+	border-radius: 700px 700px 0 0;
+}
+.shape4{
+	position: absolute;
+	top: 630px;
+	left: 1500px;
+	width: 650px;
+	height: 1160px;
+	border-top: 400px solid rgb(0,0,0);
+	border-left: 400px solid rgb(0,0,0);
+	border-right: 400px solid rgb(0,0,0);
+
+}
+.a{
+	position: absolute;
+	left: 200px;
+}
+
