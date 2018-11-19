@@ -11,10 +11,10 @@
 	margin-top: 177px;
 	position: absolute;
 	background-color:black;
-	top:92.5vh;
+	top:47.4vw;
 	left:4vh;
 	width:.25vw;
-	height:7.05vw;
+	height:4.55vw;
 }
 .rectangle3{
 	margin-top: 416px;
@@ -87,9 +87,9 @@
 	font-family: 'Roboto';
 	color:black;
 	position:absolute;
-	top:27vw;
+	top:30vw;
 	left:3.75vw;
-	width: 31vw;
+	width: 37vw;
 	font-size:30px;
 	font-weight: 100;
 	line-height: 37px;
@@ -165,7 +165,7 @@
 		left: 5.75vw;
 	}
 	.rectangle2{
-		margin-top:94px;
+		margin-top:367px;
 		height:13.05vw;
 	}
 	
@@ -176,7 +176,7 @@
 	}
 	.rectangle3{
 		margin-top:589px;
-		left:104.5vh;
+		left:94.5vw;
 		height:8.3vw;
 	}
 	.bodytext4{
