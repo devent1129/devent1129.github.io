@@ -107,6 +107,20 @@
 	background-size: cover;
 	background-position: center;
 }
+.naone-hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: black;
+	opacity:0;
+	transition:all 0.25s ease-in-out;
+}
+.naone-hover:hover{
+	opacity:.5;
+
+}
 .natwo{
 	position: absolute;
 	top: 26vw;
@@ -117,6 +131,20 @@
 	background-size: cover;
 	background-position: center;
 }
+.natwo-hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: black;
+	opacity:0;
+	transition:all 0.25s ease-in-out;
+}
+.natwo-hover:hover{
+	opacity:.3;
+}
+
 .nathree{
 	position: absolute;
 	top: 41.5vw;
@@ -126,6 +154,19 @@
 	background-image: url("na3.jpg");
 	background-size: cover;
 	background-position: center;
+}
+.nathree-hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: black;
+	opacity:0;
+	transition:all 0.25s ease-in-out;
+}
+.nathree-hover:hover{
+	opacity:.3;
 }
 .saone{
 	position: absolute;
@@ -137,6 +178,20 @@
 	background-size: cover;
 	background-position: center;
 }
+.saone-hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: black;
+	opacity:0;
+	transition:all 0.25s ease-in-out;
+}
+.saone-hover:hover{
+	opacity:.5;
+
+}
 .satwo{
 	position: absolute;
 	top: 64vw;
@@ -146,6 +201,20 @@
 	background-image: url("sa2.jpg");
 	background-size: cover;
 	background-position: center;
+}
+.satwo-hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: black;
+	opacity:0;
+	transition:all 0.25s ease-in-out;
+}
+.satwo-hover:hover{
+	opacity:.5;
+
 }
 .sathree{
 	position: absolute;
@@ -157,6 +226,19 @@
 	background-size: cover;
 	background-position: center;
 }
+.sathree-hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: black;
+	opacity:0;
+	transition:all 0.25s ease-in-out;
+}
+.sathree-hover:hover{
+	opacity:.3;
+}
 .euone{
 	position: absolute;
 	top: 102vw;
@@ -167,6 +249,19 @@
 	background-size: cover;
 	background-position: center;
 }
+.euone-hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: black;
+	opacity:0;
+	transition:all 0.25s ease-in-out;
+}
+.euone-hover:hover{
+	opacity:.5;
+	}
 .eutwo{
 	position: absolute;
 	top: 102vw;
@@ -177,6 +272,19 @@
 	background-size: cover;
 	background-position: center;
 }
+.eutwo-hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: black;
+	opacity:0;
+	transition:all 0.25s ease-in-out;
+}
+.eutwo-hover:hover{
+	opacity:.5;
+	}
 .euthree{
 	position: absolute;
 	top: 117.5vw;
@@ -187,6 +295,19 @@
 	background-size: cover;
 	background-position: center;
 }
+.euthree-hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: black;
+	opacity:0;
+	transition:all 0.25s ease-in-out;
+}
+.euthree-hover:hover{
+	opacity:.5;
+	}
 .asone{
 	position: absolute;
 	top: 140vw;
@@ -197,6 +318,19 @@
 	background-size: cover;
 	background-position: center;
 }
+.asone-hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: black;
+	opacity:0;
+	transition:all 0.25s ease-in-out;
+}
+.asone-hover:hover{
+	opacity:.5;
+	}
 .astwo{
 	position: absolute;
 	top: 140vw;
@@ -207,6 +341,19 @@
 	background-size: cover;
 	background-position: center;
 }
+.astwo-hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: black;
+	opacity:0;
+	transition:all 0.25s ease-in-out;
+}
+.astwo-hover:hover{
+	opacity:.5;
+	}
 .asthree{
 	position: absolute;
 	top: 155.5vw;
@@ -217,6 +364,19 @@
 	background-size: cover;
 	background-position: center;
 }
+.asthree-hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: black;
+	opacity:0;
+	transition:all 0.25s ease-in-out;
+}
+.asthree-hover:hover{
+	opacity:.5;
+	}
 .afrone{
 	position: absolute;
 	top: 178vw;
@@ -227,6 +387,19 @@
 	background-size: cover;
 	background-position: center;
 }
+.afrone-hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: black;
+	opacity:0;
+	transition:all 0.25s ease-in-out;
+}
+.afrone-hover:hover{
+	opacity:.5;
+	}
 .afrtwo{
 	position: absolute;
 	top: 178vw;
@@ -237,6 +410,19 @@
 	background-size: cover;
 	background-position: center;
 }
+.afrtwo-hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: black;
+	opacity:0;
+	transition:all 0.25s ease-in-out;
+}
+.afrtwo-hover:hover{
+	opacity:.5;
+	}
 .afrthree{
 	position: absolute;
 	top: 193.5vw;
@@ -247,6 +433,19 @@
 	background-size: cover;
 	background-position: center;
 }
+.afrthree-hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: black;
+	opacity:0;
+	transition:all 0.25s ease-in-out;
+}
+.afrthree-hover:hover{
+	opacity:.5;
+	}
 .ausone{
 	position: absolute;
 	top: 216vw;
@@ -257,6 +456,19 @@
 	background-size: cover;
 	background-position: center;
 }
+.ausone-hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: black;
+	opacity:0;
+	transition:all 0.25s ease-in-out;
+}
+.ausone-hover:hover{
+	opacity:.5;
+	}
 .line1{
 	position: absolute;
 	top: 21vw;
@@ -305,79 +517,27 @@
 	height: 3px;
 	background-color:rgb(40,60,250);
 }
-.rec1{
-	position: absolute;
-	top: 50.8vw;
-	left: 14vh;
-	width: 50vw;
-	height:62px;
-	background-color:white;
-	opacity:.5;
 
-}
-.rec2{
-	position: absolute;
-	top: 88.8vw;
-	left: 14vh;
-	width: 50vw;
-	height:62px;
-	background-color:white;
-	opacity:.5;
 
-}
-.rec3{
-	position: absolute;
-	top: 126.8vw;
-	left: 14vh;
-	width: 50vw;
-	height:62px;
-	background-color:white;
-	opacity:.5;
-
-}
-.rec4{
-	position: absolute;
-	top: 164.8vw;
-	left: 14vh;
-	width: 50vw;
-	height:62px;
-	background-color:white;
-	opacity:.5;
-
-}
-.rec5{
-	position: absolute;
-	top: 202.8vw;
-	left: 14vh;
-	width: 50vw;
-	height:62px;
-	background-color:white;
-	opacity:.5;
-
-}
-.rec6{
-	position: absolute;
-	top: 240.8vw;
-	left: 14vh;
-	width: 86vw;
-	height:62px;
-	background-color:white;
-	opacity:.5;
-
-}
-
-.name1{
+.infohover1{
 	margin-top: 408px;
 	font-family: 'Roboto';
-	color:black;
+	color:white;
 	position:absolute;
-	top:20.5vw;
-	left:26.5vw;
+	top:0;
+	left:0;
+	bottom:0;
+	top:0;
 	font-size:18px;
 	font-weight: 500;
 	line-height: 75px;
 	letter-spacing: 0px;
+	opacity:0;
+	transition:all 0.25s ease-in-out;
 }
+.infohover1:hover{
+	opacity:.5;
+	}
 /*
 .name2{
 	margin-top: 408px;
@@ -441,31 +601,12 @@
 }*/
 
 
-.rec7{
-	position: absolute;
-	top: 35.8vw;
-	left: 121vh;
-	width: 34vw;
-	height:62px;
-	background-color:white;
-	opacity:.5;
 
-}
-.rec8{
-	position: absolute;
-	top: 50.8vw;
-	left: 121vh;
-	width: 34vw;
-	height:63px;
-	background-color:white;
-	opacity:.5;
-
-}
 
 .name7{
 	margin-top: 408px;
 	font-family: 'Roboto';
-	color:black;
+	color:white;
 	position:absolute;
 	top:5.3vw;
 	left:68.5vw;
@@ -477,7 +618,7 @@
 .name8{
 	margin-top: 408px;
 	font-family: 'Roboto';
-	color:black;
+	color:white;
 	position:absolute;
 	top:20.5vw;
 	left:71.5vw;
