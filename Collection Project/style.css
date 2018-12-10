@@ -520,24 +520,102 @@
 
 
 .infohover1{
-	margin-top: 408px;
 	font-family: 'Roboto';
 	color:white;
 	position:absolute;
 	top:0;
-	left:0;
+	left:18vw;
 	bottom:0;
-	top:0;
-	font-size:18px;
+	top:38vw;
+	font-size:45px;
 	font-weight: 500;
 	line-height: 75px;
 	letter-spacing: 0px;
 	opacity:0;
-	transition:all 0.25s ease-in-out;
+	transition: all .25s ease-in-out;
 }
-.infohover1:hover{
-	opacity:.5;
-	}
+.infohover2{
+	font-family: 'Roboto';
+	color:white;
+	position:absolute;
+	top:0;
+	left:16vw;
+	bottom:0;
+	top:76vw;
+	font-size:45px;
+	font-weight: 500;
+	line-height: 75px;
+	letter-spacing: 0px;
+	opacity:0;
+	transition: all .25s ease-in-out;
+}
+.infohover3{
+	font-family: 'Roboto';
+	color:white;
+	position:absolute;
+	top:0;
+	left:24vw;
+	bottom:0;
+	top:114vw;
+	font-size:45px;
+	font-weight: 500;
+	line-height: 75px;
+	letter-spacing: 0px;
+	opacity:0;
+	transition: all .25s ease-in-out;
+}
+.infohover4{
+	font-family: 'Roboto';
+	color:white;
+	position:absolute;
+	top:0;
+	left:12vw;
+	bottom:0;
+	top:149vw;
+	width: 37vw;
+	font-size:45px;
+	font-weight: 500;
+	line-height: 56px;
+	letter-spacing: 0px;
+	text-align: center;
+	opacity:0;
+	transition: all .25s ease-in-out;
+}
+.infohover5{
+	font-family: 'Roboto';
+	color:white;
+	position:absolute;
+	top:0;
+	left:12vw;
+	bottom:0;
+	top:190vw;
+	font-size:45px;
+	font-weight: 500;
+	line-height: 56px;
+	letter-spacing: 0px;
+	width:37vw;
+	text-align: center;
+	opacity:0;
+	transition: all .25s ease-in-out;
+}
+.infohover6{
+	font-family: 'Roboto';
+	color:white;
+	position:absolute;
+	top:0;
+	left:31vw;
+	bottom:0;
+	top:228vw
+	font-size:45px;
+	font-weight: 500;
+	line-height: 56px;
+	letter-spacing: 0px;
+	width:37vw;
+	text-align: center;
+	opacity:0;
+	transition: all .25s ease-in-out;
+}
+
 /*
 .name2{
 	margin-top: 408px;
@@ -603,18 +681,55 @@
 
 
 
-.name7{
+.infohover7{
 	margin-top: 408px;
 	font-family: 'Roboto';
 	color:white;
 	position:absolute;
-	top:5.3vw;
+	top:1.3vw;
 	left:68.5vw;
 	font-size:18px;
 	font-weight: 500;
 	line-height: 75px;
 	letter-spacing: 0px;
+	text-align: center;
+	opacity:0;
+	transition: all .25s ease-in-out;
 }
+
+.infohover8{
+	margin-top: 408px;
+	font-family: 'Roboto';
+	color:white;
+	position:absolute;
+	top:39.3vw;
+	left:68.5vw;
+	font-size:18px;
+	font-weight: 500;
+	line-height: 75px;
+	letter-spacing: 0px;
+	text-align: center;
+	opacity:0;
+	transition: all .25s ease-in-out;
+}
+.infohover9{
+	margin-top: 408px;
+	font-family: 'Roboto';
+	color:white;
+	position:absolute;
+	top:77.3vw;
+	left:69.5
+	font-size:18px;
+	font-weight: 500;
+	line-height: 75px;
+	letter-spacing: 0px;
+	text-align: center;
+	opacity:0;
+	transition: all .25s ease-in-out;
+}
+.appear{
+	opacity:1;
+	}
 .name8{
 	margin-top: 408px;
 	font-family: 'Roboto';
