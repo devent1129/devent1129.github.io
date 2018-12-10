@@ -26,6 +26,9 @@ $(document).ready(function(){
       $(".eutwo").hover(function() {
     $(".infohover9").toggleClass("appear");
   });
+        $(".nathree").hover(function() {
+    $(".name8").toggleClass("appear");
+  });
 
 
 }); 

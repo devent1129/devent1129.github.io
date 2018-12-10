@@ -727,21 +727,40 @@
 	opacity:0;
 	transition: all .25s ease-in-out;
 }
-.appear{
-	opacity:1;
-	}
+.infohover10{
+	margin-top: 408px;
+	font-family: 'Roboto';
+	color:white;
+	position:absolute;
+	top:77.3vw;
+	left:69.5
+	font-size:18px;
+	font-weight: 500;
+	line-height: 75px;
+	letter-spacing: 0px;
+	text-align: center;
+	opacity:0;
+	transition: all .25s ease-in-out;
+}
+
 .name8{
 	margin-top: 408px;
 	font-family: 'Roboto';
 	color:white;
 	position:absolute;
-	top:20.5vw;
-	left:71.5vw;
+	top:16.5vw;
+	left:72.5vw;
 	font-size:18px;
 	font-weight: 500;
 	line-height: 75px;
 	letter-spacing: 0px;
+	opacity:0;
+	transition: all .25s ease-in-out;
+
 }
+.appear{
+	opacity:1;
+	}
 
 
 
