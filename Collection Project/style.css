@@ -455,6 +455,7 @@
 	background-image: url("aus1.jpg");
 	background-size: cover;
 	background-position: center;
+	margin-bottom: 5vw;
 }
 .ausone-hover{
 	position:absolute;
@@ -605,7 +606,7 @@
 	top:0;
 	left:31vw;
 	bottom:0;
-	top:228vw
+	top:228vw;
 	font-size:45px;
 	font-weight: 500;
 	line-height: 56px;
@@ -718,7 +719,7 @@
 	color:white;
 	position:absolute;
 	top:77.3vw;
-	left:69.5
+	left:69.5vw;
 	font-size:18px;
 	font-weight: 500;
 	line-height: 75px;
@@ -732,8 +733,8 @@
 	font-family: 'Roboto';
 	color:white;
 	position:absolute;
-	top:77.3vw;
-	left:69.5
+	top:115.3vw;
+	left:68.5vw;
 	font-size:18px;
 	font-weight: 500;
 	line-height: 75px;
@@ -758,11 +759,88 @@
 	transition: all .25s ease-in-out;
 
 }
+.infohover11{
+	margin-top: 408px;
+	font-family: 'Roboto';
+	color:white;
+	position:absolute;
+	top:54.5vw;
+	left:71vw;
+	font-size:18px;
+	font-weight: 500;
+	line-height: 75px;
+	letter-spacing: 0px;
+	opacity:0;
+	transition: all .25s ease-in-out;
+
+}
+.infohover12{
+	margin-top: 408px;
+	font-family: 'Roboto';
+	color:white;
+	position:absolute;
+	top:92.5vw;
+	left:69vw;
+	font-size:18px;
+	font-weight: 500;
+	line-height: 75px;
+	letter-spacing: 0px;
+	opacity:0;
+	transition: all .25s ease-in-out;
+
+}
+.infohover13{
+	margin-top: 408px;
+	font-family: 'Roboto';
+	color:white;
+	position:absolute;
+	top:130.5vw;
+	left:72vw;
+	font-size:18px;
+	font-weight: 500;
+	line-height: 75px;
+	letter-spacing: 0px;
+	opacity:0;
+	transition: all .25s ease-in-out;
+
+}
+.infohover14{
+	margin-top: 408px;
+	font-family: 'Roboto';
+	color:white;
+	position:absolute;
+	top:153.3vw;
+	left:70.5vw;
+	font-size:18px;
+	font-weight: 500;
+	line-height: 75px;
+	letter-spacing: 0px;
+	text-align: center;
+	opacity:0;
+	transition: all .25s ease-in-out;
+}
+.infohover15{
+	margin-top: 408px;
+	font-family: 'Roboto';
+	color:white;
+	position:absolute;
+	top:168.5vw;
+	left:71vw;
+	font-size:18px;
+	font-weight: 500;
+	line-height: 75px;
+	letter-spacing: 0px;
+	opacity:0;
+	transition: all .25s ease-in-out;
+
+}
 .appear{
 	opacity:1;
 	}
 
-
+.moveall{
+	margin-top:0px;
+}
 
 
 

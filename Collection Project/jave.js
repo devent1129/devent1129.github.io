@@ -29,6 +29,25 @@ $(document).ready(function(){
         $(".nathree").hover(function() {
     $(".name8").toggleClass("appear");
   });
+         $(".sathree").hover(function() {
+    $(".infohover11").toggleClass("appear");
+  });
+            $(".astwo").hover(function() {
+    $(".infohover10").toggleClass("appear");
+  });
+             $(".euthree").hover(function() {
+    $(".infohover12").toggleClass("appear");
+  });
+              $(".asthree").hover(function() {
+    $(".infohover13").toggleClass("appear");
+  });
+             $(".afrtwo").hover(function() {
+    $(".infohover14").toggleClass("appear");
+  });
+ $(".afrthree").hover(function() {
+    $(".infohover15").toggleClass("appear");
+  });
+
 
 
 }); 
