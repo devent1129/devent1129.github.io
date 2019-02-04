@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recipes by Gordon Ramsay</title>
+  </head>
+  <body>
+  	<h1>Meaty Meals by Gordon Ramsay</h1>
+  			<a target="_blank" href="bbq.html"><img src="bbq.jpg"></a>
+  			<a target="_blank" href="rb"><img src="rb.jpg"></a>
+  			<a target="_blank" href="lamb"><img src="lamb.jpg"></a>
+  			<a target="_blank" href="cs"><img src="cs.jpg"></a>
+  			<a target="_blank" href="mb"><img src="mb.jpg"></a>
+
+
+ </body>
+</html>      

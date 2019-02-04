@@ -1,0 +1,152 @@
+.headline{
+	position: absolute;
+	width: 100vw;
+	top: 3vw;
+	left:4vw;
+	font-family: 'Roboto', sans-serif;
+	font-size: 4.8vw;
+	font-weight: 100;
+	line-height: 38px;
+	color: white;
+	letter-spacing: 5px;
+}
+.intro{
+	position: absolute;
+	top: 78px;
+	left:13px;
+	width: 94vw;
+	font-size:12px;
+	line-height: 17px;
+}
+
+.foods{
+	top: 1px;
+}
+.redrec{
+	position: absolute;
+	top: 19px;
+	left: 12px;
+	width: 94vw;
+	height: 44px;
+	background-color: red;
+}
+.bbq{
+	position: absolute;
+	top: 215px;
+	left: 13px;
+	width: 45vw;
+	height: 50vw;
+	background-image: url("bbq.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.lamb{
+	position: absolute;
+	top: 593px;
+	left: 13px;
+	width: 45vw;
+	height: 50vw;
+	background-image: url("lamb.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.rb{
+	position: absolute;
+	top: 215px;
+	left: 356px;
+	width: 45vw;
+	height: 50vw;
+	background-image: url("rb.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.cs{
+	position: absolute;
+	top: 593px;
+	left: 356px;
+	width: 45vw;
+	height: 50vw;
+	background-image: url("cs.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.mb{
+	position: absolute;
+	top: 971px;
+	left: 13px;
+	width: 45vw;
+	height: 50vw;
+	background-image: url("mb.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.bbq-hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: black;
+	opacity:0;
+	transition:all 0.25s ease-in-out;
+}
+.rb-hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: black;
+	opacity:0;
+	transition:all 0.25s ease-in-out;
+}
+.lamb-hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: black;
+	opacity:0;
+	transition:all 0.25s ease-in-out;
+}
+.cs-hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: black;
+	opacity:0;
+	transition:all 0.25s ease-in-out;
+}
+.mb-hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: black;
+	opacity:0;
+	transition:all 0.25s ease-in-out;
+}
+.rb-hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: black;
+	opacity:0;
+	transition:all 0.25s ease-in-out;
+}
+
+/*.background{
+position:absolute;
+top:0;
+bottom:0;
+width: 100vw;
+height: 100vh;
+background-color: rgb(255,255,255);
+}*/
+@media(min-width: 711px){
