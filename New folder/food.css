@@ -62,6 +62,21 @@ html, body{
 	height: 44px;
 	background-color: red;
 }
+h3{
+	margin-top:3px;
+	margin-bottom:12px;
+	margin-left: 30px;
+	font-family: Verdana;
+	width: 85vw;
+	font-size:15px;
+	line-height: 18px;
+	color: black;
+	text-align:center;
+	/*background-color: red;
+	padding-top:9px;
+	padding-bottom: 8px;
+	padding-left:26px;*/
+}
 
 .bbq{
 	/*position: absolute;
