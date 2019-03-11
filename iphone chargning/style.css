@@ -1,0 +1,256 @@
+.phones{
+	left:0px;
+}
+.iphone1{position:absolute;
+	top: 66px;
+	left:100px;
+	width: 23vw;
+	height: 39vw;
+	background-image: url("phone1.png");
+	background-size: cover;
+	background-position: center;
+	
+}
+.iphone2{position:absolute;
+	top: 29px;
+	left:1070px;
+	width: 23vw;
+	height: 45vw;
+	background-image: url("phone2.png");
+	background-size: cover;
+	background-position: center;
+}
+.iphone3{position:absolute;
+	top: 52px;
+	left:1920px;
+	width: 26vw;
+	height: 49vw;
+	background-image: url("phone3.png");
+	background-size: cover;
+	background-position: center;
+	}
+.charger1{
+	position:absolute;
+	top: 233px;
+	left:120px;
+	width: 23vw;
+	height: 39vw;
+	background-image: url("charger1.png");
+	background-size: cover;
+	background-position: center;
+	animation-name:chargermoves;
+	animation-duration:2.5s;
+	 animation-timing-function: linear;
+  animation-iteration-count: 1;
+
+}
+.charger2{
+	position:absolute;
+	top: 221px;
+	left:1076px;
+	width: 23vw;
+	height: 39vw;
+	background-image: url("charger1.png");
+	background-size: cover;
+	background-position: center;
+		animation-name:chargermoves2;
+	animation-duration:2.5s;
+	 animation-timing-function: linear;
+  animation-iteration-count: 1;
+
+
+}
+.charger3{
+	position:absolute;
+	top: 535px;
+	left:2165px;
+	width: 10vw;
+	height: 28vw;
+	background-image: url("charger2.png");
+	background-size: cover;
+	background-position: center;
+		animation-name:chargermoves3;
+	animation-duration:2.5s;
+	 animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+.charge1{
+	position:absolute;
+	bottom:229px;
+	left: 320px;
+	width: 200px;
+	height:0px;
+	transform: rotate(180deg);
+	background-color: green;
+	animation-name:change;
+	animation-duration:5s;
+	animation-delay: 2.5s;
+	 animation-timing-function: linear;
+  animation-iteration-count: 1;
+
+}
+.charge2{
+	position:absolute;
+	bottom:335px;
+	left: 1280px;
+	width: 200px;
+	height:0px;
+	transform: rotate(180deg);
+	background-color: green;
+	animation-name:change;
+	animation-duration:15s;
+	animation-delay: 2.5s;
+	 animation-timing-function: linear;
+  animation-iteration-count: 1;
+
+}
+.charge3{
+	position:absolute;
+	bottom:330px;
+	left: 2194px;
+	width: 200px;
+	height:0px;
+	transform: rotate(180deg);
+	background-color: green;
+	animation-name:change;
+	animation-duration:30s;
+	animation-delay: 2.5s;
+	 animation-timing-function: linear;
+  animation-iteration-count: 1;
+
+}
+.backcolor{
+	width:100vw;
+	height:103vh;
+	background-color: rgb(197,162,113);
+}
+@keyframes change{
+	0%{
+	height:0px;
+
+}
+	100%{
+	height:365px;
+
+	}
+
+}
+@keyframes chargermoves{
+	0%{
+	top:425px;
+
+}
+	100%{
+	top:233px;
+
+	}
+
+}
+
+@keyframes chargermoves2{
+	0%{
+	top:425px;
+
+}
+	100%{
+	top:221px;
+
+	}
+
+}
+@keyframes chargermoves3{
+	0%{
+	top:699px;
+
+}
+	100%{
+	top:535px;
+
+	}
+
+}
+@keyframes vibrate{
+	0%{
+		transform: rotate(0deg);
+
+	}
+	50%{
+		transform: rotate(1.5deg);
+		}
+
+	75%{
+		transform: rotate(-1.5deg);
+	}
+
+	
+	100%{
+		transform: rotate(0deg);
+	}
+}
+.iphone1.vibrate{
+	background-image: url("phone5.png");
+	animation-name:vibrate;
+	animation-duration:.25s;
+	 animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+.iphone2.vibrate{
+	background-image: url("phone4.png");
+	animation-name:vibrate;
+	animation-duration:.25s;
+	 animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+.iphone3.vibrate{
+	background-image: url("phone6.png");
+	animation-name:vibrate;
+	animation-duration:.25s;
+	 animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+.charge1.vibrate{
+	animation-name:vibrate;
+	animation-duration:.25s;
+	 animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+.charge2.vibrate{
+	animation-name:vibrate;
+	animation-duration:.25s;
+	 animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+.charge3.vibrate{
+	animation-name:vibrate;
+	animation-duration:.25s;
+	 animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+.charger1.vibrate{
+	animation-name:vibrate;
+	animation-duration:.25s;
+	 animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+.charger2.vibrate{
+	animation-name:vibrate;
+	animation-duration:.25s;
+	 animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+.charger3.vibrate{
+	animation-name:vibrate;
+	animation-duration:.25s;
+	 animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
