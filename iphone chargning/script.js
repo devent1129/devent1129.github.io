@@ -3,13 +3,13 @@ $(document).ready(function() {
     $(".iphone1").addClass("vibrate");
      $(".charge1").addClass("vibrate");
      $(".charger1").addClass("vibrate");
-     $("audio").get(0).play();
+     $(".vibaudio").get(0).play();
   }, 7500);
   setTimeout(function(){
     $(".iphone2").addClass("vibrate"); 
      $(".charge2").addClass("vibrate");
           $(".charger2").addClass("vibrate");
-     $("audio").get(0).play();
+     $(".vibaudio2").get(0).play();
   }, 17500);
    setTimeout(function(){
     $(".iphone3").addClass("vibrate"); 
@@ -17,7 +17,7 @@ $(document).ready(function() {
           $(".charger3").addClass("vibrate");
     $(".button").addClass("alarm");
      $(".button").addClass("alarm");
-     $("audio").get(0).play();
+     $(".vibaudio3").get(0).play();
   }, 32500);
   $(".iphone1").click(function() { 
     $(".iphone1").removeClass("vibrate");
