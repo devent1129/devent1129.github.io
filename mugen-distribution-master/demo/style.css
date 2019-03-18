@@ -59,8 +59,8 @@ body {
   height: 300px;
   background-image: url("./img/balloons.png");
   animation-name: spriteSheet;
-  animation-duration: 1000ms;
-  animation-timing-function: steps(2); /* number of frames in sprite (not counting the final blank space) */
+  animation-duration: 2000ms;
+  animation-timing-function: steps(8); /* number of frames in sprite (not counting the final blank space) */
   background-position: 0 center;
   background-size: cover;
   transition-property: left, margin-bottom;
