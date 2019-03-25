@@ -37,7 +37,9 @@ MUGEN can be applied to projects covering a range of timeframes, from one-day wo
     * `.hero.attacking` appearance of the hero when performing an attack
     * `.hero.left` appearance of the hero when facing left, with right being considered the default (note: this class may be applied in the walking, jumping, or attacking states)
     * `.monster` appearance and motion of the monster
+    * `.monster.was-hit` appearance and motion of the monster after being hit by hero
     * `.instructions` appearance of a short instruction text blurb that displays when the page first loads
+    * `.score` appearance of score indicator
   * `script.js` a short JavaScript file that instantiates and initializes the MUGEN library
   * `img/` a directory containing all the images and sprite sheets required for the background, hero, and monster
 ## Getting started
@@ -68,8 +70,11 @@ The following is a complete list of available settings:
 * `heroSpeed` (number) how fast the hero moves when walking, in pixels per second
 * `jumpHeight` (number) how high the hero jumps, in pixels
 * `attackDuration` (number) duration of the hero's attack animation, in milliseconds **note: this should match the setting in the CSS file**)
+* `attackRadius` (number) how far out the hero's attack reaches to hit a monster, in pixels (from center of hero div)
+* `monsterHitRadius` (number) how far out from the center of the monster div its body extends and can be hit, in pixels
 * `monsterSpeed` (number) how fast the monster moves, in pixels per second
 * `timeBetweenMonsters` (number) length of time between new monster spawns, in milliseconds
+* `pointsPerMonsterKilled` (number) how many points are added to the score for each monster killed
 * `makeResponsive` (boolean) when set to true, MUGEN will attempt to resize the page to fit on smaller screens **note: this feature is experimental and potentially buggy**
 * `autoPlay` (boolean) when set to true, MUGEN will make the hero move, jump, and attack automatically instead of waiting for user input
 ## Formatting animation sprites
